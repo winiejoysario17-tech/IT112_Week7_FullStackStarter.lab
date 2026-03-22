@@ -1,4 +1,39 @@
 {
+  "name": "week-7-fullstackstarter",
+  "version": "1.0.0",
+  "description": "Week 7 Full Stack Starter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm start",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^9.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winiejoysario17-tech/week-7-fullStackStarter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/winiejoysario17-tech/week-7-fullStackStarter/issues"
+  },
+  "homepage": "https://github.com/winiejoysario17-tech/week-7-fullStackStarter#readme"
+}
+
+{
   "name": "it112_week7_fullstackstarter",
   "version": "1.0.0",
   "description": "",
