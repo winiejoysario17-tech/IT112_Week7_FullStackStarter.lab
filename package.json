@@ -8,10 +8,18 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winiejoysario17-tech/IT112_Week7_FullStackStarter.lab.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/winiejoysario17-tech/IT112_Week7_FullStackStarter.lab/issues"
+  },
+  "homepage": "https://github.com/winiejoysario17-tech/IT112_Week7_FullStackStarter.lab#readme",
   "dependencies": {
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
